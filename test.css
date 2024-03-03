@@ -1,0 +1,156 @@
+body {
+  /* width: 100vw; */
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #000042;
+  color: #F3F3F3;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  padding-top: 60px;  
+}
+
+.main {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* margin-top: 20px; */
+  position: fixed;
+  display: flex;  
+  background-color: #7575ffb7;
+  width: 100%;
+}
+
+/* .logo {
+  width: 100px;
+  height: 100%;
+  margin-top: 20px;
+  padding-left: 30px;
+} */
+
+.main .logo img {  
+  height: 10vh;  
+  width: 7vw;
+}
+
+
+.navbar {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.navbar a {
+  display: inline block;
+  color: #F3F3F3;
+  text-decoration: none;
+  margin-left: 10px;
+  /* margin: 5px;   */
+}
+.random{
+  line-height: 4;
+  margin-left: 35vw;
+  margin-top: 1.5vh;
+  /* color: #000042; */
+  /* border-radius: 0px; */
+}
+.random button{
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+}
+.random i{
+  font-size: 2em;
+
+}
+.sidenav {
+  display: flex;
+  /* margin-left: 47vw; */
+  margin-top: 20px;
+  /* float: right; */
+  padding-left: 2vw;
+}
+.sidenav input{
+  overflow: hidden;
+  background-color: #141414;
+  height: 30px;
+  margin-right: 10px;
+}
+.sidenav a {
+  color: #F3F3F3;
+  text-decoration: none;
+  margin-top: 20px;
+  margin: 5px;
+  margin-right: 20px;
+}
+
+.sidenav button{
+  height: 40px;
+  width: 40px;
+  margin-top: -10px;
+  /* margin-right: 10px; */
+}
+.main-container {
+  padding: 50px;
+}
+
+.location .box{
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+}
+.box img{
+  width: 25vw;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  height: 25vh;
+}
+.box h2{
+  text-decoration: none;
+  color: #F3F3F3;
+  text-align: center;
+  font-size: 20px;
+  margin-top: -10px;
+}
+.box .poster:hover{
+  transform: scale(1.1);
+}
+.links {
+  margin-top: 20px;
+}
+
+.sublinks ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.sublinks a {
+  color: #F3F3F3;
+  text-decoration: none;
+}
+
+.logos a{
+  padding: 10px;
+}
+
+.logos {
+  color: var(--dark);
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #F3F3F3;
+  margin: 10px;
+}
